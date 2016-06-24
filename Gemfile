@@ -35,6 +35,13 @@ gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'database_cleaner'
+  gem 'mocha'
+  gem 'shoulda', '~> 3.5'
+  gem 'shoulda-matchers', '~> 2.0'
+  gem 'simplecov', :require => false
 end
 
 group :development do
